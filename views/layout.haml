@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %style{:type => 'text/css'}
+      @import url('style.css');
+    %script{:type => 'text/javascript', :src => '/js/jquery.js'}  
+    %script{:type => 'text/javascript', :src => '/js/app.js'}
+    %title
+      Web Development, Ruby on Rails, PHP and Python.
+  %body
+    #wrapper
+      #content
+        #page
+          #head
+            #logo
+              %a{:href => '/'}
+                %img{:src => '/images/hi.png'}
+          =yield
+      #footer
+        #footer_inner
+          %p
+            Things I like:
+            %a{:href => 'http://rubyonrails.org'}
+              RubyonRails
+            ,
+            %a{:href => 'http://php.net'}
+              php
+            ,
+            %a{:href => 'http://github.com'}
+              Github
+            ,
+            %a{:href => 'http://sinatrarb.com'}
+              Sinatra
+            ,
+            %a{:href => 'http://slicehost.com'}
+              Slicehost
+      
+  
