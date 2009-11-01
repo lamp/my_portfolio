@@ -118,6 +118,14 @@ body {
   margin: auto;
   width: 960px;
 }
+#footer #footer_inner p {
+  font-size: 11px;
+  font-family: 'Silkscreen';
+}
+#footer #footer_inner a {
+  font-size: 11px;
+  font-family: 'Silkscreen';
+}
 h1 {
   font-size: 20px;
   font-weight: bolder;
