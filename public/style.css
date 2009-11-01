@@ -117,6 +117,8 @@ body {
   border-top: 1px solid black;
   margin: auto;
   width: 960px;
+}
+#footer #footer_inner p {
   font-size: 11px;
   font-family: 'Silkscreen';
 }
