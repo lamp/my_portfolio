@@ -1,9 +1,8 @@
 require 'rubygems'
+require "bundler"
+Bundler.require :default
+
 require 'sinatra'
-require 'sequel'
-require 'net/http'
-require 'rexml/document'
-include REXML
 
 configure :production do
 
